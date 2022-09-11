@@ -2,5 +2,10 @@
 src = 'src'
 out = 'out'
 libs = ['lib']
+solc = "0.8.15"
+bytecode_hash = "none"
+optimizer_runs = 1000000
+no_match_test = "FFI"
+
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
